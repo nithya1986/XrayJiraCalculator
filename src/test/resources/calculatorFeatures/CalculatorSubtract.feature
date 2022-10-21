@@ -1,6 +1,6 @@
 Feature: Calculator Subtract
 
-  @TestCaseKey=SEL-T4
+  @TestCaseKey=SEL-4
   Scenario Outline: Subtract two numbers
     Given a calculator I just turned on
     Then I subtract <a> and <b> and the result is <c>
@@ -11,7 +11,7 @@ Feature: Calculator Subtract
       | 40 | 40 | 0 |
 
 
-  @TestCaseKey=SEL-T5
+  @TestCaseKey=SEL-5
   Scenario Outline: Subtract other two numbers
     Given a calculator I just turned on
     Then I subtract <a> and <b> and the result is <c>
